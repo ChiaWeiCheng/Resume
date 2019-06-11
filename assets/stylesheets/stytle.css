@@ -1,0 +1,91 @@
+.introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px auto;
+}
+
+.introduction img {
+  width: 40%;
+  height: 40%;
+}
+
+.introduction .andy {
+  margin: 0 50px 0;
+}
+
+.introduction .andy p {
+  color: #929190;
+}
+
+.introduction .andy .dd {
+  font-size: 20px;
+  width: 300px;
+}
+
+.introduction .andy i {
+  color: black;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  z-index: 1;
+  position: fixed;
+  background-color: bisque;
+}
+
+.navbar a {
+  border-radius: 20%;
+  color: black;
+}
+
+.navbar a:hover {
+  background: #f1c288;
+}
+
+.navbar > .container {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row div {
+  margin: 20px;
+}
+
+.row img {
+  width: 18rem;
+  height: 50%;
+}
+
+body {
+  background: #ddddc1;
+}
+
+.footer {
+  margin: 50px;
+  text-align: center;
+}
+
+.footer .svg-inline--fa.fa-w-16 {
+  width: 40px;
+  height: 40px;
+}
+
+.footer a {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+}
+
+.footer .footer-bo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=stytle.css.map */
